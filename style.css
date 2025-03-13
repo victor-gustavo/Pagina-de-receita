@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 140%;
+
+}
 body{
     background-image: url(assets/bg-image.jpg);
     background-repeat: no-repeat;
@@ -10,8 +16,16 @@ body{
     font-style: normal;
     color: #291B1A;
 }
-body h1, h2{
+h1{
+    font-size: 2.5em;
+    line-height: 150%;
+}
+h2{
+    line-height: 140%;
+}
+h1, h2{
     color:#573A37;
+    line-height: 150%;
 }
 img{
     border-radius: 15px;
@@ -23,4 +37,20 @@ img{
     background-color: #F0E8C2;
     margin: 48px auto;
     border-radius: 24px;
+}
+main{
+    padding:24px
+}
+#about p {
+    margin-top: 12px;
+}
+section{
+    margin-top: 40px;
+}
+#ingredients ul{
+    padding-left: 20px;
+    padding-top: 12px;
+}
+#preparations p{
+    padding-top: 12px;
 }
